@@ -14,9 +14,7 @@ HTML, CSS, React
 
 
 ## What Lessons I learned in this project
-    1. How to use API in React
-    
-    2. useState - React Hook 
-
-    3. useEffect - React Hook
+- How to use API in React
+- useState - React Hook 
+- useEffect - React Hook
 
