@@ -4,11 +4,13 @@ import PokemonThumbnail from './components/PokemonThumbnail';
 
 
 function App() {
+  //assign variable with useState and set as array to store all pokemons
   const [allPokemons, setAllPokemons] = useState([]);
+  //assign variable with useState using API URL
   const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=10');
 
 
-  // it is supposed to show 10 pokemons byt there are 10 duplicated pokemons on the first page
+  
   const getAllPokemons = async () => {
     const res = await fetch(loadMore);
     const data = await res.json();
