@@ -1,18 +1,4 @@
 
-# PokeAPI with React App
-
-I followed [YouTube](https://www.youtube.com/watch?v=CZBWT7MQYr0&t=1001s) and create react app and I have learned a lot of things so I am writing down a memo here.
-
-## What my application does?
-Using this website, you can see pokemons information such as moves, abilities, types, etc.
-
-## What the technologies you used?
-
-
-
-HTML, CSS, React.js
-
-
 ## What Lessons I learned in this project
 - How to use API in React
 
@@ -48,6 +34,7 @@ HTML, CSS, React.js
     This will end up displaying "Hello?". Because I called myFunc2() function at the end.
     If I change and call myFunc2() after myFunc1(), this will end up displaying "HI".
 
+    This section is about sequence control.
     Sometimes you want to have good control over when a function is executed.
     I will show two examples and when to use the callback function below:
     ```javascript
